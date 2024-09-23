@@ -1,0 +1,55 @@
+html,
+body{
+    margin: 0;
+    font-family: 'Times New Roman';
+    background-image: url('img1.jpg');
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+}
+#wrapper h2{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: black;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 30px;
+    height: 2.5rem;
+    width: 250px;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+input:active{
+     border: none;
+}
+#wrapper{
+    height: 500px; 
+    width: 400px;
+    margin: 100px auto;
+    background:transparent;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    padding:10px 30px;
+}
+#add{
+    height: 2.7rem;
+    width: 80px;
+    background:rgb(23, 104, 23);
+    border-radius: 5px;
+    border:1px solid black ;
+    font-size:18px;
+    
+}
+#todolist {
+    color: white;
+    font-size: 1.5rem;
+    
+}
